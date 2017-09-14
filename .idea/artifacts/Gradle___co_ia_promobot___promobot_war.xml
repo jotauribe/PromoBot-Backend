@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : co.ia.promobot : promobot.war">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="promobot.war">
+      <element id="artifact" artifact-name="Gradle : co.ia.promobot : promobot.war (exploded)" />
+    </root>
+  </artifact>
+</component>

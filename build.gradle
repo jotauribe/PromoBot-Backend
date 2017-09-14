@@ -1,0 +1,21 @@
+group 'co.ia.promobot'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax:javaee-api:7.0'
+    providedCompile 'org.hibernate:hibernate-core:5.2.10.Final'
+    testCompile group: 'junit', name: 'junit', version: '4.9'
+}
+
+war{
+    archiveName "promobot.war"
+}
